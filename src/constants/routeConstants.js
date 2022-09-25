@@ -1,0 +1,3 @@
+const PRODUCT_LISTING_ROUTE = "/";
+const CART_ROUTE = "/cart";
+export { PRODUCT_LISTING_ROUTE, CART_ROUTE };
