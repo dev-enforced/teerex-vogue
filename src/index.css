@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.mr-1 {
+  margin-right: 0.8rem;
+}
+
+.ml-4 {
+  margin-left: 3.2rem;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.rounded-sm {
+  border-radius: 0.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 64em) {
+  html {
+    font-size: 80%;
+  }
+}

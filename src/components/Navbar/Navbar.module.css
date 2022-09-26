@@ -1,0 +1,131 @@
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 10vh;
+  padding: 1.5rem 4rem 1.5rem 3rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.left_nav_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.menu .hamburger_menu {
+  font-size: 3.5rem;
+}
+
+.brand_logo {
+  font-weight: 900;
+  color: #302f34;
+  font-size: 1.6rem;
+}
+
+.brand_logo_link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.mini_link {
+  padding: 0.8rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.mini_link:hover {
+  background-color: #d8d8d8;
+}
+
+.search_container {
+  width: 40rem;
+  background-color: #fff;
+}
+
+.search_input {
+  color: inherit;
+  width: 100%;
+  padding: 0.8rem 1.6rem 0.8rem 4.8rem;
+  font-size: 1.6rem;
+}
+
+.search_input:focus {
+  border: 0.5px solid #94969f;
+}
+
+.search_bar_icon {
+  top: 15px;
+  left: 1.5rem;
+  color: #94969f;
+}
+
+.ecom_actions_container {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ecom_action_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon_badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_badge_span {
+  font-size: 2.6rem;
+}
+
+.badge_number {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ef4444;
+  left: 1.6rem;
+  bottom: 1.6rem;
+  font-weight: 400;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 64em) {
+  .menu {
+    display: block;
+  }
+  .left_nav_links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .navigation_container .search_container {
+    position: absolute;
+    top: 6.4rem;
+    left: 0;
+    width: 100%;
+  }
+  .search_bar_icon {
+    top: 8px;
+  }
+}
